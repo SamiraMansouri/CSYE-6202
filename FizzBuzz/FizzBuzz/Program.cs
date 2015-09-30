@@ -6,6 +6,7 @@ namespace FizzBuzz
 	{
 		static void Main(string[] args)
 		{
+
             Console.Write("Please Enter Your Number:");
             int Num = Convert.ToInt32(Console.ReadLine());
 
