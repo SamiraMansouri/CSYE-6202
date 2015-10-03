@@ -60,9 +60,36 @@ namespace GasPump
 		{
 			GasType gasType = GasType.None;
 
-			// your implementation here
+            switch (c)
+            {
+                case 'r' :
+                case 'R':
+                    gasType=GasType.RegularGas;
+                    break;
 
-			return gasType;
+                case 'm':
+                case 'M':
+                    gasType = GasType.MidgradeGas;
+                    break;
+
+                case 'p':
+                case 'P':
+                    gasType = GasType.PremiumGas;
+                    break;
+
+                case 'd':
+                case 'D':
+                    gasType = GasType.DieselFuel;
+                    break;
+
+                default:
+                    gasType = GasType.None;
+                    break;
+
+            }
+
+
+            return gasType;
 		}
 
 		public static double GasPriceMapper(GasType gasType)
