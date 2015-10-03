@@ -23,7 +23,10 @@ namespace GasPump
 		{
 			var result = false;
 
-			// your implementation here
+            if (userInput.Contains("Q") || userInput.Contains("q"))
+            {
+                Environment.Exit(9);
+            }
 
 			return result;
 		}
