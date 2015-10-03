@@ -1,18 +1,16 @@
-﻿using System;
-using FindingPrimeNumbers;
-namespace FindingPrimeNumbers
+﻿namespace FindingPrimeNumbers
 {
-	class Program
+    using System;
+    class Program
 	{
 		static void Main(string[] args)
 		{
             Console.WriteLine("Please Enter Your Number:");
-            int Num =Convert.ToInt32( Console.ReadLine());
-            FindingPrimeNumbers Prime = new FindingPrimeNumbers();
-            long Sum=Prime.FindSumOfPrimeNumbers(Num);
-            Console.WriteLine("The Sum IS:"+Sum.ToString());
+            int num = Convert.ToInt32( Console.ReadLine());
+            FindingPrimeNumbers prime = new FindingPrimeNumbers();
+            long sum = prime.FindSumOfPrimeNumbers(num);
+            Console.WriteLine("The Sum IS:" + sum.ToString());
             Console.ReadLine();
 		}
 	}
 }
-																																																		

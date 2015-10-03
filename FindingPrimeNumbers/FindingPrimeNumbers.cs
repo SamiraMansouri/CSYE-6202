@@ -11,37 +11,38 @@
 
             while (count < n)
             {
-                if (IsPrime(num))
+                if (this.IsPrime(num))
                 {
                     sum += num;
                     count++;
                 }
+
                 num++;
             }
             
             return sum;
 		}
 
-        private bool IsPrime(int Num)
+        private bool IsPrime(int num)
         {
             bool result = true;
-            if (Num < 2)
+            if (num < 2)
             {
                 result = false;
             }
-            else if (Num == 2)
+            else if (num == 2)
             {
                 result = true;
             }
-            else if (Num % 2 == 0)
+            else if (num % 2 == 0)
             {
                 result = false;
             }
-            else if ((Num % 2) != 0)
+            else if ((num % 2) != 0)
             {
-                for (int i = 2; i < Num; i++)
+                for (int i = 2; i < num; i++)
                 {
-                    if (Num % i == 0)
+                    if (num % i == 0)
                     {
                         result = false;
                         break;
@@ -49,6 +50,7 @@
 
                 }
             }
+
             return result;
         }
     }
