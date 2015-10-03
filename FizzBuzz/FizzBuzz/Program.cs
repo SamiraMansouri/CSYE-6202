@@ -1,19 +1,21 @@
-﻿using System;
+﻿
 
 namespace FizzBuzz
 {
+    using System;
+
     class Program
     {
         static void Main(string[] args)
         {
 
             Console.Write("Please Enter Your Number:");
-            int Num = Convert.ToInt32(Console.ReadLine());
+            int num = Convert.ToInt32(Console.ReadLine());
 
             FizzBuzz cls = new FizzBuzz();
-            string Result = cls.RunFizzBuzz(Num);
+            string result = cls.RunFizzBuzz(num);
 
-            Console.WriteLine("The Result Is:" + Result);
+            Console.WriteLine("The Result Is:" + result);
             Console.ReadLine();
         }
     }
