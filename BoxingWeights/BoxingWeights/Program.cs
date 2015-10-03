@@ -11,11 +11,8 @@ namespace BoxingWeights
             BoxingWeightClassifier clsFindCategoryofWeight = new BoxingWeightClassifier();
             string result = clsFindCategoryofWeight.ClassifyBoxingWeight(weightInPounds);
 
-            Console.WriteLine("Category of the weight "+ weightInPounds.ToString()+ " in pound is: "+result+'\n');
+            Console.WriteLine("Category of the weight " + weightInPounds.ToString() + " in pound is: " + result + '\n');
             Console.Read();
-            
-
-
         }
 	}
 }

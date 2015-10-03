@@ -4,10 +4,9 @@
 	{
 		public string ClassifyBoxingWeight(int weightInPounds)
 		{
-          
 			string result = weightInPounds.ToString();
 
-            if (weightInPounds<=105)
+            if (weightInPounds <= 105)
             {
                 result = BoxingWeights.Constants.Strawweight + " and " + BoxingWeights.Constants.Heavyweight;
             }
@@ -76,7 +75,6 @@
                 result = BoxingWeights.Constants.Heavyweight;
             }
             
-
             return result;
 		}
 	}
