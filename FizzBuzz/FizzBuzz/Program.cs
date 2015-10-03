@@ -1,6 +1,4 @@
-﻿
-
-namespace FizzBuzz
+﻿namespace FizzBuzz
 {
     using System;
 
