@@ -15,45 +15,45 @@
         static void Main(string[] args)
         {
             while (true)
-            { 
+            {
                 loop:
-                { 
-                Console.WriteLine("Please enter purchased gas type, Q/qto quit:");
-                string gastTypeChar = Console.Read().ToString();
-                if (UserEnteredSentinelValue(gastTypeChar))
-                {
-                    Environment.Exit(9);
-                }
                 
-                else if (UserEnteredValidGasType(gastTypeChar))
-                {
-                    Console.WriteLine("Please enter purchased gas amount, Q/q to quit:");
-                    string gasAmount = Console.Read().ToString();
+                    Console.Write("Please enter purchased gas type, Q/qto quit:");
+                    string gastTypeChar = Console.ReadLine().ToString();
                     if (UserEnteredSentinelValue(gastTypeChar))
                     {
                         Environment.Exit(9);
                     }
-                    else if (UserEnteredValidAmount(gasAmount))
-                    {
-                            GasType gasType = GasTypeMapper(Convert.ToChar( gastTypeChar));
-                            double totalCost = 0;
-                            CalculateTotalCost(gasType,Convert.ToInt32( gasAmount),ref totalCost);
-                            Console.WriteLine("You bought"+gasAmount+"gallons of"+gasType+"at"+GasPriceMapper(gasType));
-                            Console.WriteLine("Your total cost for this purchase is :"+totalCost.ToString());
 
+                    else if (UserEnteredValidGasType(gastTypeChar))
+                    {
+                        Console.Write("Please enter purchased gas amount, Q/q to quit:");
+                        string gasAmount = Console.Read().ToString();
+                        if (UserEnteredSentinelValue(gastTypeChar))
+                        {
+                            Environment.Exit(9);
+                        }
+                        else if (UserEnteredValidAmount(gasAmount))
+                        {
+                            GasType gasType = GasTypeMapper(Convert.ToChar(gastTypeChar));
+                            double totalCost = 0;
+                            CalculateTotalCost(gasType, Convert.ToInt32(gasAmount), ref totalCost);
+                            Console.WriteLine("You bought" + gasAmount + "gallons of" + gasType + "at" + GasPriceMapper(gasType));
+                            Console.WriteLine("Your total cost for this purchase is :" + totalCost.ToString());
+
+                        }
+                        else
+                        {
+                            Console.WriteLine("Please enter valid purchase gas amount.");
+                            goto loop;
+                        }
                     }
                     else
                     {
-                        Console.WriteLine("Please enter valid purchase gas amount.");
+                        Console.WriteLine("Please enter valid purchase gas type.");
                         goto loop;
                     }
                 }
-                else
-                {
-                    Console.WriteLine("Please enter valid purchase gas type.");
-                    goto loop;
-                }
-        }
 
 		}
 
