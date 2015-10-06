@@ -1,8 +1,7 @@
-﻿using System;
-
-namespace GasPump
+﻿namespace GasPump
 {
-	public class Program
+    using System;
+    public class Program
 	{
 		public enum GasType
 		{
@@ -13,9 +12,49 @@ namespace GasPump
 			DieselFuel				
 		}
 
-		static void Main(string[] args)
-		{
-			// your implementation here
+        static void Main(string[] args)
+        {
+            while (true)
+            { 
+                loop:
+                { 
+                Console.WriteLine("Please enter purchased gas type, Q/qto quit:");
+                string gastTypeChar = Console.Read().ToString();
+                if (UserEnteredSentinelValue(gastTypeChar))
+                {
+                    Environment.Exit(9);
+                }
+                
+                else if (UserEnteredValidGasType(gastTypeChar))
+                {
+                    Console.WriteLine("Please enter purchased gas amount, Q/q to quit:");
+                    string gasAmount = Console.Read().ToString();
+                    if (UserEnteredSentinelValue(gastTypeChar))
+                    {
+                        Environment.Exit(9);
+                    }
+                    else if (UserEnteredValidAmount(gasAmount))
+                    {
+                            GasType gasType = GasTypeMapper(Convert.ToChar( gastTypeChar));
+                            double totalCost = 0;
+                            CalculateTotalCost(gasType,Convert.ToInt32( gasAmount),ref totalCost);
+                            Console.WriteLine("You bought"+gasAmount+"gallons of"+gasType+"at"+GasPriceMapper(gasType));
+                            Console.WriteLine("Your total cost for this purchase is :"+totalCost.ToString());
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("Please enter valid purchase gas amount.");
+                        goto loop;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Please enter valid purchase gas type.");
+                    goto loop;
+                }
+        }
+
 		}
 
 		// use this method to check and see if sentinel value is entered
@@ -25,7 +64,7 @@ namespace GasPump
 
             if (userInput.Contains("Q") || userInput.Contains("q"))
             {
-                Environment.Exit(9);
+                result = true;
             }
 
 			return result;
@@ -36,9 +75,15 @@ namespace GasPump
 		public static bool UserEnteredValidGasType(string userInput)
 		{
 			var result = false;
-
-			// your implementation here
-			
+            string gasTypesCharacters = "PpMmRrDd";
+            if (gasTypesCharacters.Contains(userInput) && userInput.Length==1)
+            {
+                result = true;
+            }
+            else
+            {
+                result = false;
+            }
 			return result;
 		}
 
@@ -48,7 +93,14 @@ namespace GasPump
 		{
 			var result = false;
 
-			// your implementation here
+            if (Convert.ToInt32(userInput)<0)
+            {
+                result = true;
+            }
+            else 
+            {
+                result = false;
+            }
 
 			return result;
 		}
@@ -96,14 +148,33 @@ namespace GasPump
 		{
 			var result = 0.0;
 
-			// your implementation here
+            switch (gasType)
+            {
+                case GasType.DieselFuel:
+                    result= 2.17;
+                    break;
 
-			return result;
+                case GasType.MidgradeGas:
+                    result = 2;
+                    break;
+
+                case GasType.RegularGas:
+                    result = 1.94;
+                    break;
+
+                case GasType.PremiumGas:
+                    result = 2.24;
+                    break;
+
+            }
+
+            return result;
 	}
 
 		public static void CalculateTotalCost(GasType gasType, int gasAmount, ref double totalCost)
 		{
-			// your implementation here
+            double gasMap = GasPriceMapper(gasType);
+            totalCost = gasAmount * gasMap;
 		}
 	}
 }
