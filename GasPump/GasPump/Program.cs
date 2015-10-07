@@ -16,44 +16,46 @@
         {
             while (true)
             {
-                loop:
-                
-                    Console.Write("Please enter purchased gas type, Q/qto quit:");
-                    string gastTypeChar = Console.ReadLine().ToString();
-                    if (UserEnteredSentinelValue(gastTypeChar))
-                    {
-                        Environment.Exit(9);
-                    }
+                bool validGasType = false;
+                string gastTypeChar = string.Empty;
 
-                    else if (UserEnteredValidGasType(gastTypeChar))
+                while (!validGasType)
                     {
-                        Console.Write("Please enter purchased gas amount, Q/q to quit:");
-                        string gasAmount = Console.Read().ToString();
+                        Console.Write("Please enter purchased gas type, Q/qto quit:");
+                         gastTypeChar= Console.ReadLine().ToString();
                         if (UserEnteredSentinelValue(gastTypeChar))
                         {
                             Environment.Exit(9);
                         }
-                        else if (UserEnteredValidAmount(gasAmount))
+                        else if(UserEnteredValidGasType(gastTypeChar))
                         {
-                            GasType gasType = GasTypeMapper(Convert.ToChar(gastTypeChar));
-                            double totalCost = 0;
-                            CalculateTotalCost(gasType, Convert.ToInt32(gasAmount), ref totalCost);
-                            Console.WriteLine("You bought" + gasAmount + "gallons of" + gasType + "at" + GasPriceMapper(gasType));
-                            Console.WriteLine("Your total cost for this purchase is :" + totalCost.ToString());
-
-                        }
-                        else
-                        {
-                            Console.WriteLine("Please enter valid purchase gas amount.");
-                            goto loop;
+                        validGasType = true;
                         }
                     }
-                    else
+
+                bool validGasAmount = false;
+                string gasAmount = string.Empty;
+
+                while (!validGasAmount)
+                {
+                    Console.Write("Please enter purchased gas amount, Q/q to quit:");
+                    gasAmount = Console.ReadLine().ToString();
+                    if (UserEnteredSentinelValue(gastTypeChar))
                     {
-                        Console.WriteLine("Please enter valid purchase gas type.");
-                        goto loop;
+                        Environment.Exit(9);
+                    }
+                    else if (UserEnteredValidAmount(gasAmount))
+                    {
+                        validGasAmount = true;
                     }
                 }
+                GasType gasType = GasTypeMapper(Convert.ToChar(gastTypeChar));
+                double totalCost = 0;
+                CalculateTotalCost(gasType, Convert.ToDouble(gasAmount), ref totalCost);
+                Console.WriteLine("You bought " + gasAmount + " gallons of " + gasType + " at " + GasPriceMapper(gasType));
+                Console.WriteLine("Your total cost for this purchase is : " + totalCost.ToString());
+
+            }
 
 		}
 
@@ -61,11 +63,14 @@
 		public static bool UserEnteredSentinelValue(string userInput)
 		{
 			var result = false;
-
-            if (userInput.Contains("Q") || userInput.Contains("q"))
+            if (userInput!=null)
             {
-                result = true;
+                if (userInput.Trim() == "q" || userInput.Trim() == "Q")
+                {
+                    result = true;
+                }
             }
+           
 
 			return result;
 		}
@@ -75,14 +80,18 @@
 		public static bool UserEnteredValidGasType(string userInput)
 		{
 			var result = false;
-            string gasTypesCharacters = "PpMmRrDd";
-            if (gasTypesCharacters.Contains(userInput) && userInput.Length==1)
+
+            if (userInput != null)
             {
-                result = true;
-            }
-            else
-            {
-                result = false;
+                string gasTypesCharacters = "PpMmRrDd";
+                if (gasTypesCharacters.Contains(userInput) && userInput.Length == 1)
+                {
+                    result = true;
+                }
+                else
+                {
+                    result = false;
+                }
             }
 			return result;
 		}
@@ -92,16 +101,18 @@
 		public static bool UserEnteredValidAmount(string userInput)
 		{
 			var result = false;
-
-            if (Convert.ToInt32(userInput)<0)
+            double number=0;
+            if (userInput != null)
             {
-                result = true;
+                if (double.TryParse(userInput, out number))
+                {
+                    result = true;
+                }
+                else
+                {
+                    result = false;
+                }
             }
-            else 
-            {
-                result = false;
-            }
-
 			return result;
 		}
 
@@ -171,7 +182,7 @@
             return result;
 	}
 
-		public static void CalculateTotalCost(GasType gasType, int gasAmount, ref double totalCost)
+		public static void CalculateTotalCost(GasType gasType, double gasAmount, ref double totalCost)
 		{
             double gasMap = GasPriceMapper(gasType);
             totalCost = gasAmount * gasMap;
