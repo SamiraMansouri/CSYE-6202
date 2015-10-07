@@ -93,6 +93,7 @@
                     result = false;
                 }
             }
+
 			return result;
 		}
 
@@ -113,6 +114,7 @@
                     result = false;
                 }
             }
+
 			return result;
 		}
 
@@ -150,8 +152,7 @@
                     break;
 
             }
-
-
+            
             return gasType;
 		}
 
