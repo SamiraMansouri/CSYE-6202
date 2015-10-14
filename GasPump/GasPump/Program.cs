@@ -51,7 +51,7 @@
                 }
                 GasType gasType = GasTypeMapper(Convert.ToChar(gastTypeChar));
                 double totalCost = 0;
-                CalculateTotalCost(gasType, Convert.ToDouble(gasAmount), ref totalCost);
+                CalculateTotalCost(gasType, Convert.ToInt32(gasAmount), ref totalCost);
                 Console.WriteLine("You bought " + gasAmount + " gallons of " + gasType + " at " + GasPriceMapper(gasType));
                 Console.WriteLine("Your total cost for this purchase is : " + totalCost.ToString());
 
@@ -183,7 +183,7 @@
             return result;
 	}
 
-		public static void CalculateTotalCost(GasType gasType, double gasAmount, ref double totalCost)
+		public static void CalculateTotalCost(GasType gasType, int gasAmount, ref double totalCost)
 		{
             double gasMap = GasPriceMapper(gasType);
             totalCost = gasAmount * gasMap;
