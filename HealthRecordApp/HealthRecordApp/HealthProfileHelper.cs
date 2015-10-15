@@ -6,13 +6,27 @@ namespace HealthRecordApp
 	{
 		public static bool ValidateFirstName(string firstName)
 		{
-			return false;
+            if (firstName=="" || firstName.Trim()==" "||Convert.ToDouble(firstName)>=0 || Convert.ToDouble(firstName) < 0)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
 		}
 
 		public static bool ValidateLastName(string lastName)
 		{
-			return false;
-		}
+            if (lastName == "" || lastName.Trim() == " " || Convert.ToDouble(lastName) >= 0 || Convert.ToDouble(lastName) < 0)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
 
 		public static bool ValidateGender(string enteredGender, ref Gender patientGender)
 		{
