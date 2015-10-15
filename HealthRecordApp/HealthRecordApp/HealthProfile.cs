@@ -22,7 +22,6 @@ namespace HealthRecordApp
 
         #region Methods
 
-
         public string FirstName
         {
             get { return firstName; }
