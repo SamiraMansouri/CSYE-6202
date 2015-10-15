@@ -2,50 +2,107 @@
 
 namespace HealthRecordApp
 {
+    
 	public class HealthProfileHelper
 	{
 		public static bool ValidateFirstName(string firstName)
 		{
-            if (firstName=="" || firstName.Trim()==" "||Convert.ToDouble(firstName)>=0 || Convert.ToDouble(firstName) < 0)
+            bool isValid = false;
+            try
             {
-                return false;
+                double x = Convert.ToDouble(firstName);
             }
-            else
+            catch (Exception e)
             {
-                return true;
+                if (firstName.Trim() != "")
+                {
+                    isValid = true;
+                }
             }
+            return isValid;
 		}
 
 		public static bool ValidateLastName(string lastName)
 		{
-            if (lastName == "" || lastName.Trim() == " " || Convert.ToDouble(lastName) >= 0 || Convert.ToDouble(lastName) < 0)
+            bool isValid = false;
+            try
             {
-                return false;
+                double x = Convert.ToDouble(lastName);
             }
-            else
+            catch (Exception e)
             {
-                return true;
+                if (lastName.Trim() != "")
+                {
+                    isValid = true;
+                }
             }
+            return isValid;
         }
 
 		public static bool ValidateGender(string enteredGender, ref Gender patientGender)
 		{
-			return false;
+            if (enteredGender.ToLower().Trim()==Gender.Female.ToString().ToLower())
+            {
+                patientGender = Gender.Female;
+                return true;
+            }
+            else if (enteredGender.ToLower().Trim() == Gender.Male.ToString().ToLower())
+            {
+                patientGender = Gender.Male;
+                return true;
+            }
+            else if (enteredGender.ToLower().Trim() == Gender.Unspecified.ToString().ToLower())
+            {
+                patientGender = Gender.Unspecified ;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+            
 		}
 
 		public static bool ValidateDateOfBirth(string enteredDOB, ref DateTime patientDOB)
 		{
-			return false;
+            bool isValid = false;
+            if (DateTime.TryParse(enteredDOB,out patientDOB))
+            {
+                isValid = true;
+            }
+			return isValid;
 		}
 
-		public static bool ValidateHeight(string heightInString, ref int patientHeight)
+		public static bool ValidateHeight(string heightInString, ref int? patientHeight)
 		{
-			return false;
-		}
+            bool isValid = false;
+            try
+            {
+                int x = Convert.ToInt32(heightInString);
+                patientHeight = Convert.ToInt32(heightInString);
+                isValid = true;
+            }
+            catch (Exception e)
+            {
+                isValid = false;
+            }
+            return isValid;
+        }
 
-		public static bool ValidateWeight(string weightInString, ref int patientWeight)
+		public static bool ValidateWeight(string weightInString, ref int? patientWeight)
 		{
-			return false;
-		}
+            bool isValid = false;
+            try
+            {
+                int x = Convert.ToInt32(weightInString);
+                patientWeight = Convert.ToInt32(weightInString);
+                isValid = true;
+            }
+            catch (Exception e)
+            {
+                isValid = false;
+            }
+            return isValid;
+        }
 	}
 }
