@@ -17,8 +17,8 @@ namespace HealthRecordApp
         private string lastName ;
         private Gender patientsGender = new Gender();
         private DateTime patientsDateofBirt = new DateTime();
-        private int? patientsHeight = null;
-        private int? patientsWeight = null;
+        private int patientsHeight =0;
+        private int patientsWeight = 0;
 
         #region Methods
 
@@ -48,13 +48,13 @@ namespace HealthRecordApp
             set { patientsDateofBirt = value; }
         }
 
-        public int? HeightInInches
+        public int HeightInInches
         {
             get { return patientsHeight; }
             set { patientsHeight = value; }
         }
 
-        public int? WeightInPounds
+        public int WeightInPounds
         {
             get { return patientsWeight; }
             set { patientsWeight = value; }
