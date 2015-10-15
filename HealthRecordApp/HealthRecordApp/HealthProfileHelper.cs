@@ -5,6 +5,7 @@ namespace HealthRecordApp
     
 	public class HealthProfileHelper
 	{
+        
 		public static bool ValidateFirstName(string firstName)
 		{
             bool isValid = false;
@@ -63,24 +64,36 @@ namespace HealthRecordApp
             
 		}
 
-		public static bool ValidateDateOfBirth(string enteredDOB, ref DateTime patientDOB)
-		{
+        public static bool ValidateDateOfBirth(string enteredDOB, ref DateTime patientDOB)
+        {
             bool isValid = false;
-            if (DateTime.TryParse(enteredDOB,out patientDOB))
+
+            if (DateTime.TryParse(enteredDOB, out patientDOB))
             {
                 isValid = true;
             }
-			return isValid;
-		}
+            if (patientDOB > DateTime.Today)
+            {
+                isValid = false;
+                patientDOB = DateTime.MinValue;
+            }
 
-		public static bool ValidateHeight(string heightInString, ref int? patientHeight)
+
+            return isValid;
+        }
+
+		public static bool ValidateHeight(string heightInString, ref int patientHeight)
 		{
             bool isValid = false;
             try
             {
                 int x = Convert.ToInt32(heightInString);
                 patientHeight = Convert.ToInt32(heightInString);
-                isValid = true;
+                if (patientHeight>0)
+                {
+                    isValid = true;
+                }
+                
             }
             catch (Exception e)
             {
@@ -89,14 +102,17 @@ namespace HealthRecordApp
             return isValid;
         }
 
-		public static bool ValidateWeight(string weightInString, ref int? patientWeight)
+		public static bool ValidateWeight(string weightInString, ref int patientWeight)
 		{
             bool isValid = false;
             try
             {
                 int x = Convert.ToInt32(weightInString);
                 patientWeight = Convert.ToInt32(weightInString);
-                isValid = true;
+                if (patientWeight > 0)
+                {
+                    isValid = true;
+                }
             }
             catch (Exception e)
             {

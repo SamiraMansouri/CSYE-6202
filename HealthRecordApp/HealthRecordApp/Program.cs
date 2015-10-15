@@ -10,8 +10,8 @@
             string lastName = string.Empty;
             Gender patientsGender=new Gender(); 
             DateTime patientsDateofBirt = new DateTime();
-            int ?patientsHeight=null;
-            int ?patientsWeight = null;
+            int patientsHeight = 0;
+            int patientsWeight = 0;
             
             bool firstNameIsValid = false;
             while (!firstNameIsValid)
@@ -70,21 +70,15 @@
                 weightIsValid = HealthRecordApp.HealthProfileHelper.ValidateWeight(weight, ref patientsWeight);
 
             }
-            HealthProfile patienHealthProfile =new HealthProfile();
-            Console.WriteLine("\n\n\n"+"Displaying Patient profile:");
-            Console.WriteLine("---------------------------");
-            Console.WriteLine("---------------------------");
-            Console.WriteLine("First Name: "+firstName);
-            Console.WriteLine("Last Name: " + lastName);
-            Console.WriteLine("Gender: " + patientsGender);
-            Console.WriteLine("Date of Birth: " + patientsDateofBirt);
-            Console.WriteLine("Height: " + patientsHeight+" inches");
-            Console.WriteLine("Weight: " + patientsWeight+" pounds");
-            Console.WriteLine("Age: " + patienHealthProfile.CalculateAge());
-            Console.WriteLine("Max: " + patienHealthProfile.CalculateMaxHeartRate());
-            Console.WriteLine("BMI: " + patienHealthProfile.CalculateBMI());
 
-
+            HealthProfile PatientHealthProfile = new HealthProfile();
+            PatientHealthProfile.FirstName = firstName;
+            PatientHealthProfile.LastName = lastName;
+            PatientHealthProfile.Gender = patientsGender;
+            PatientHealthProfile.DOB = patientsDateofBirt;
+            PatientHealthProfile.WeightInPounds=patientsWeight;
+            PatientHealthProfile.HeightInInches = patientsHeight;
+            PatientHealthProfile.DisplayPatientProfile();
             Console.Read();
             
 
