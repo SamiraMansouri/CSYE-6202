@@ -6,7 +6,7 @@ namespace HealthRecordApp
 	public class HealthProfileHelper
 	{
         
-		public static bool ValidateFirstName(string firstName)
+		public static bool ValidateFirstName(string firstName)//regex
 		{
             bool isValid = false;
             try
