@@ -1,0 +1,5 @@
+C:\Users\apple\Source\Repos\CSYE-6202\PrintingPatterns\TrianglePatterns\bin\Debug\TrianglePatterns.exe.config
+C:\Users\apple\Source\Repos\CSYE-6202\PrintingPatterns\TrianglePatterns\bin\Debug\TrianglePatterns.exe
+C:\Users\apple\Source\Repos\CSYE-6202\PrintingPatterns\TrianglePatterns\bin\Debug\TrianglePatterns.pdb
+C:\Users\apple\Source\Repos\CSYE-6202\PrintingPatterns\TrianglePatterns\obj\Debug\TrianglePatterns.exe
+C:\Users\apple\Source\Repos\CSYE-6202\PrintingPatterns\TrianglePatterns\obj\Debug\TrianglePatterns.pdb

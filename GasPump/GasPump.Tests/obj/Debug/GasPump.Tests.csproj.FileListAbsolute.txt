@@ -1,0 +1,9 @@
+C:\Users\apple\Source\Repos\CSYE-6202\GasPump\GasPump.Tests\bin\Debug\GasPump.Tests.dll
+C:\Users\apple\Source\Repos\CSYE-6202\GasPump\GasPump.Tests\bin\Debug\GasPump.Tests.pdb
+C:\Users\apple\Source\Repos\CSYE-6202\GasPump\GasPump.Tests\bin\Debug\GasPump.exe
+C:\Users\apple\Source\Repos\CSYE-6202\GasPump\GasPump.Tests\bin\Debug\nunit.framework.dll
+C:\Users\apple\Source\Repos\CSYE-6202\GasPump\GasPump.Tests\bin\Debug\GasPump.pdb
+C:\Users\apple\Source\Repos\CSYE-6202\GasPump\GasPump.Tests\bin\Debug\nunit.framework.xml
+C:\Users\apple\Source\Repos\CSYE-6202\GasPump\GasPump.Tests\obj\Debug\GasPump.Tests.csprojResolveAssemblyReference.cache
+C:\Users\apple\Source\Repos\CSYE-6202\GasPump\GasPump.Tests\obj\Debug\GasPump.Tests.dll
+C:\Users\apple\Source\Repos\CSYE-6202\GasPump\GasPump.Tests\obj\Debug\GasPump.Tests.pdb

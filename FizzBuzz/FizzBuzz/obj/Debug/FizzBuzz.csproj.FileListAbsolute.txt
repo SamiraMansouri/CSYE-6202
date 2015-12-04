@@ -1,0 +1,5 @@
+C:\Users\apple\Source\Repos\CSYE-6202\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.exe.config
+C:\Users\apple\Source\Repos\CSYE-6202\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.exe
+C:\Users\apple\Source\Repos\CSYE-6202\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.pdb
+C:\Users\apple\Source\Repos\CSYE-6202\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.exe
+C:\Users\apple\Source\Repos\CSYE-6202\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.pdb

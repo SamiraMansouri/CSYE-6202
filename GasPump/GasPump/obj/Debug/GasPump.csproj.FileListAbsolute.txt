@@ -1,0 +1,6 @@
+C:\Users\apple\Source\Repos\CSYE-6202\GasPump\GasPump\bin\Debug\GasPump.exe.config
+C:\Users\apple\Source\Repos\CSYE-6202\GasPump\GasPump\bin\Debug\GasPump.exe
+C:\Users\apple\Source\Repos\CSYE-6202\GasPump\GasPump\bin\Debug\GasPump.pdb
+C:\Users\apple\Source\Repos\CSYE-6202\GasPump\GasPump\obj\Debug\GasPump.exe
+C:\Users\apple\Source\Repos\CSYE-6202\GasPump\GasPump\obj\Debug\GasPump.pdb
+C:\Users\apple\Source\Repos\CSYE-6202\GasPump\GasPump\obj\Debug\GasPump.csprojResolveAssemblyReference.cache

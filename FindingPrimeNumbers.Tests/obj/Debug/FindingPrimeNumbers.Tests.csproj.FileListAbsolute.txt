@@ -1,0 +1,13 @@
+C:\Users\apple\Source\Repos\CSYE-6202\FindingPrimeNumbers.Tests\bin\Debug\FindingPrimeNumbers.Tests.dll
+C:\Users\apple\Source\Repos\CSYE-6202\FindingPrimeNumbers.Tests\bin\Debug\FindingPrimeNumbers.Tests.pdb
+C:\Users\apple\Source\Repos\CSYE-6202\FindingPrimeNumbers.Tests\bin\Debug\FindingPrimeNumbers.exe
+C:\Users\apple\Source\Repos\CSYE-6202\FindingPrimeNumbers.Tests\bin\Debug\nunit.core.dll
+C:\Users\apple\Source\Repos\CSYE-6202\FindingPrimeNumbers.Tests\bin\Debug\nunit.core.interfaces.dll
+C:\Users\apple\Source\Repos\CSYE-6202\FindingPrimeNumbers.Tests\bin\Debug\nunit.framework.dll
+C:\Users\apple\Source\Repos\CSYE-6202\FindingPrimeNumbers.Tests\bin\Debug\nunit.util.dll
+C:\Users\apple\Source\Repos\CSYE-6202\FindingPrimeNumbers.Tests\bin\Debug\NUnit.VisualStudio.TestAdapter.dll
+C:\Users\apple\Source\Repos\CSYE-6202\FindingPrimeNumbers.Tests\bin\Debug\FindingPrimeNumbers.pdb
+C:\Users\apple\Source\Repos\CSYE-6202\FindingPrimeNumbers.Tests\bin\Debug\nunit.framework.xml
+C:\Users\apple\Source\Repos\CSYE-6202\FindingPrimeNumbers.Tests\obj\Debug\FindingPrimeNumbers.Tests.csprojResolveAssemblyReference.cache
+C:\Users\apple\Source\Repos\CSYE-6202\FindingPrimeNumbers.Tests\obj\Debug\FindingPrimeNumbers.Tests.dll
+C:\Users\apple\Source\Repos\CSYE-6202\FindingPrimeNumbers.Tests\obj\Debug\FindingPrimeNumbers.Tests.pdb

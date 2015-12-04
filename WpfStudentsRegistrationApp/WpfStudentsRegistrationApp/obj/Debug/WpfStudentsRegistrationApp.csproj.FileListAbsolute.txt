@@ -1,0 +1,40 @@
+\\psf\home\documents\visual studio 2015\Projects\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\bin\Debug\WpfStudentsRegistrationApp.exe.config
+\\psf\home\documents\visual studio 2015\Projects\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\bin\Debug\WpfStudentsRegistrationApp.exe
+\\psf\home\documents\visual studio 2015\Projects\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\bin\Debug\WpfStudentsRegistrationApp.pdb
+\\psf\home\documents\visual studio 2015\Projects\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\WpfStudentsRegistrationApp.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2015\Projects\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\MainWindow.g.cs
+\\psf\home\documents\visual studio 2015\Projects\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\App.g.cs
+\\psf\home\documents\visual studio 2015\Projects\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\WpfStudentsRegistrationApp_MarkupCompile.cache
+\\psf\home\documents\visual studio 2015\Projects\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\WpfStudentsRegistrationApp_MarkupCompile.lref
+\\psf\home\documents\visual studio 2015\Projects\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\MainWindow.baml
+\\psf\home\documents\visual studio 2015\Projects\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\WpfStudentsRegistrationApp.g.resources
+\\psf\home\documents\visual studio 2015\Projects\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\WpfStudentsRegistrationApp.Properties.Resources.resources
+\\psf\home\documents\visual studio 2015\Projects\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\WpfStudentsRegistrationApp.csproj.GenerateResource.Cache
+\\psf\home\documents\visual studio 2015\Projects\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\WpfStudentsRegistrationApp.exe
+\\psf\home\documents\visual studio 2015\Projects\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\WpfStudentsRegistrationApp.pdb
+\\psf\home\documents\visual studio 2015\Projects\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\frmStudentInfo.g.cs
+\\psf\home\documents\visual studio 2015\Projects\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\frmAddStudent.g.cs
+\\psf\home\documents\visual studio 2015\Projects\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\frmEditStudent.g.cs
+\\psf\home\documents\visual studio 2015\Projects\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\frmRemoveStudent.g.cs
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\bin\Debug\WpfStudentsRegistrationApp.exe.config
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\WpfStudentsRegistrationApp.exe
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\WpfStudentsRegistrationApp.pdb
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\WpfStudentsRegistrationApp.csprojResolveAssemblyReference.cache
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\frmAddStudent.g.cs
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\frmEditStudent.g.cs
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\frmRemoveStudent.g.cs
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\frmStudentInfo.g.cs
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\MainWindow.g.cs
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\App.g.cs
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\WpfStudentsRegistrationApp_MarkupCompile.cache
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\WpfStudentsRegistrationApp_MarkupCompile.lref
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\bin\Debug\WpfStudentsRegistrationApp.exe
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\bin\Debug\WpfStudentsRegistrationApp.pdb
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\frmAddStudent.baml
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\frmEditStudent.baml
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\frmRemoveStudent.baml
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\frmStudentInfo.baml
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\MainWindow.baml
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\WpfStudentsRegistrationApp.g.resources
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\WpfStudentsRegistrationApp.Properties.Resources.resources
+\\psf\Home\Desktop\C#\WpfStudentsRegistrationApp\WpfStudentsRegistrationApp\obj\Debug\WpfStudentsRegistrationApp.csproj.GenerateResource.Cache

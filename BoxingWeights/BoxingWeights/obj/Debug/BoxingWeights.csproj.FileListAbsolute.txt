@@ -1,0 +1,6 @@
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights\bin\Debug\BoxingWeights.exe.config
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights\bin\Debug\BoxingWeights.exe
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights\bin\Debug\BoxingWeights.pdb
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights\obj\Debug\BoxingWeights.exe
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights\obj\Debug\BoxingWeights.pdb
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights\obj\Debug\BoxingWeights.csprojResolveAssemblyReference.cache

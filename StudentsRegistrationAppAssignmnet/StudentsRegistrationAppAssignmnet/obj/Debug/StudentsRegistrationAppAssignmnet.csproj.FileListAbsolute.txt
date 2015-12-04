@@ -1,0 +1,13 @@
+\\psf\Home\Desktop\C#\StudentsRegistrationAppAssignmnet\StudentsRegistrationAppAssignmnet\bin\Debug\StudentsRegistrationAppAssignmnet.exe.config
+\\psf\Home\Desktop\C#\StudentsRegistrationAppAssignmnet\StudentsRegistrationAppAssignmnet\bin\Debug\StudentsRegistrationAppAssignmnet.exe
+\\psf\Home\Desktop\C#\StudentsRegistrationAppAssignmnet\StudentsRegistrationAppAssignmnet\bin\Debug\StudentsRegistrationAppAssignmnet.pdb
+\\psf\Home\Desktop\C#\StudentsRegistrationAppAssignmnet\StudentsRegistrationAppAssignmnet\obj\Debug\StudentsRegistrationAppAssignmnet.csprojResolveAssemblyReference.cache
+\\psf\Home\Desktop\C#\StudentsRegistrationAppAssignmnet\StudentsRegistrationAppAssignmnet\obj\Debug\StudentsRegistrationAppAssignmnet.Properties.Resources.resources
+\\psf\Home\Desktop\C#\StudentsRegistrationAppAssignmnet\StudentsRegistrationAppAssignmnet\obj\Debug\StudentsRegistrationAppAssignmnet.csproj.GenerateResource.Cache
+\\psf\Home\Desktop\C#\StudentsRegistrationAppAssignmnet\StudentsRegistrationAppAssignmnet\obj\Debug\StudentsRegistrationAppAssignmnet.exe
+\\psf\Home\Desktop\C#\StudentsRegistrationAppAssignmnet\StudentsRegistrationAppAssignmnet\obj\Debug\StudentsRegistrationAppAssignmnet.pdb
+\\psf\Home\Desktop\C#\StudentsRegistrationAppAssignmnet\StudentsRegistrationAppAssignmnet\obj\Debug\StudentsRegistrationAppAssignmnet.frmLogin.resources
+\\psf\Home\Desktop\C#\StudentsRegistrationAppAssignmnet\StudentsRegistrationAppAssignmnet\obj\Debug\StudentsRegistrationAppAssignmnet.frmStudentInfo.resources
+\\psf\Home\Desktop\C#\StudentsRegistrationAppAssignmnet\StudentsRegistrationAppAssignmnet\obj\Debug\StudentsRegistrationAppAssignmnet.frmAddStudent.resources
+\\psf\Home\Desktop\C#\StudentsRegistrationAppAssignmnet\StudentsRegistrationAppAssignmnet\obj\Debug\StudentsRegistrationAppAssignmnet.frmEditStudent.resources
+\\psf\Home\Desktop\C#\StudentsRegistrationAppAssignmnet\StudentsRegistrationAppAssignmnet\obj\Debug\StudentsRegistrationAppAssignmnet.frmRemoveStudent.resources

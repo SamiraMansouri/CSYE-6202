@@ -1,0 +1,9 @@
+C:\Users\apple\Source\Repos\CSYE-6202\HealthRecordApp\HealthRecordApp.Tests\obj\Debug\HealthRecordApp.Tests.csprojResolveAssemblyReference.cache
+C:\Users\apple\Source\Repos\CSYE-6202\HealthRecordApp\HealthRecordApp.Tests\bin\Debug\HealthRecordApp.Tests.dll
+C:\Users\apple\Source\Repos\CSYE-6202\HealthRecordApp\HealthRecordApp.Tests\bin\Debug\HealthRecordApp.Tests.pdb
+C:\Users\apple\Source\Repos\CSYE-6202\HealthRecordApp\HealthRecordApp.Tests\bin\Debug\HealthRecordApp.exe
+C:\Users\apple\Source\Repos\CSYE-6202\HealthRecordApp\HealthRecordApp.Tests\bin\Debug\nunit.framework.dll
+C:\Users\apple\Source\Repos\CSYE-6202\HealthRecordApp\HealthRecordApp.Tests\bin\Debug\HealthRecordApp.pdb
+C:\Users\apple\Source\Repos\CSYE-6202\HealthRecordApp\HealthRecordApp.Tests\bin\Debug\nunit.framework.xml
+C:\Users\apple\Source\Repos\CSYE-6202\HealthRecordApp\HealthRecordApp.Tests\obj\Debug\HealthRecordApp.Tests.dll
+C:\Users\apple\Source\Repos\CSYE-6202\HealthRecordApp\HealthRecordApp.Tests\obj\Debug\HealthRecordApp.Tests.pdb

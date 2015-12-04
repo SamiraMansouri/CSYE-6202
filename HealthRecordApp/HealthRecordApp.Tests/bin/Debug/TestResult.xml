@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\apple\Source\Repos\CSYE-6202\HealthRecordApp\HealthRecordApp.Tests\bin\Debug\HealthRecordApp.Tests.dll" total="24" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-10-16" time="14:06:22">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="APPLEAD7E" user="apple" user-domain="APPLEAD7E" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\apple\Source\Repos\CSYE-6202\HealthRecordApp\HealthRecordApp.Tests\bin\Debug\HealthRecordApp.Tests.dll" executed="True" result="Success" success="True" time="0.120" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="HealthRecordApp" executed="True" result="Success" success="True" time="0.113" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.113" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="WhenRunningHealthRecordApp" executed="True" result="Success" success="True" time="0.112" asserts="0">
+                <results>
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingCalculateAge_GivenCurrentYearAndPatientBirthYear_ReturnsCorrectAge" executed="True" result="Success" success="True" time="0.018" asserts="1" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingCalculateBMI_GivenWeightAndHeight_ReturnsCorrectBMI" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingCalculateMaxHeartRate_GivenAge_ReturnsCorrectMaxHeartRate" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingCustomConstructor_ResultShouldNotBeNull" executed="True" result="Success" success="True" time="0.005" asserts="1" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingDefaultConstructor_ResultShouldNotBeNull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateDateOfBirth_IfDOBIsGreaterThanCurrentDateTime_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.005" asserts="2" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateDateOfBirth_IfDOBIsNotAValidDateTime_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateFirstName_IfDOBIsAValidDateTime_ResultShouldBeTrue" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateFirstName_IfFirstNameIsAllWhiteSpaces_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateFirstName_IfFirstNameIsEmpty_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateFirstName_IfFirstNameIsNull_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateFirstName_IfFirstNameIsValid_ResultShouldBeTrue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateGender_IfGenderIsNotAValidEnum_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateGender_IfGenderIsValid_ResultShouldBeTrue" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateHeight_IfHeightIsNotAValidInteger_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateHeight_IfHeightIsSmallerOrEqualToZero_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateHeight_IfHeightIsValid_ResultShouldBeTrue" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateLastName_IfLastNameIsAllWhiteSpaces_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateLastName_IfLastNameIsEmpty_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateLastName_IfLastNameIsNull_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateLastName_IfLastNameIsValid_ResultShouldBeTrue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateWeight_IfWeightIsNotAValidInteger_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateWeight_IfWeightIsSmallerOrEqualToZero_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="HealthRecordApp.Tests.WhenRunningHealthRecordApp.When_TestingValidateWeight_IfWeightIsValid_ResultShouldBeTrue" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

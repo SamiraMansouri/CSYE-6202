@@ -1,0 +1,13 @@
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights.Tests\bin\Debug\BoxingWeights.Tests.dll
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights.Tests\bin\Debug\BoxingWeights.Tests.pdb
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights.Tests\bin\Debug\BoxingWeights.exe
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights.Tests\bin\Debug\nunit.core.dll
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights.Tests\bin\Debug\nunit.core.interfaces.dll
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights.Tests\bin\Debug\nunit.framework.dll
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights.Tests\bin\Debug\nunit.util.dll
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights.Tests\bin\Debug\NUnit.VisualStudio.TestAdapter.dll
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights.Tests\bin\Debug\BoxingWeights.pdb
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights.Tests\bin\Debug\nunit.framework.xml
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights.Tests\obj\Debug\BoxingWeights.Tests.csprojResolveAssemblyReference.cache
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights.Tests\obj\Debug\BoxingWeights.Tests.dll
+C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights.Tests\obj\Debug\BoxingWeights.Tests.pdb

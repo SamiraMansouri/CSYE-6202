@@ -1,0 +1,3 @@
+/Users/apple/Desktop/CarbonFootPrint/CarbonFootPrint/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
+/Users/apple/Desktop/CarbonFootPrint/CarbonFootPrint/obj/Debug/CarbonFootPrint.frmStartPage.resources
+/Users/apple/Desktop/CarbonFootPrint/CarbonFootPrint/obj/Debug/CarbonFootPrint.Properties.Resources.resources

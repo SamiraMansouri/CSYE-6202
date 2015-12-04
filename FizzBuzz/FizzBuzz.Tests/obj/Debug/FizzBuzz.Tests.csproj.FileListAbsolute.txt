@@ -1,0 +1,9 @@
+C:\Users\apple\Source\Repos\CSYE-6202\FizzBuzz\FizzBuzz.Tests\bin\Debug\FizzBuzz.Tests.dll
+C:\Users\apple\Source\Repos\CSYE-6202\FizzBuzz\FizzBuzz.Tests\bin\Debug\FizzBuzz.Tests.pdb
+C:\Users\apple\Source\Repos\CSYE-6202\FizzBuzz\FizzBuzz.Tests\bin\Debug\FizzBuzz.exe
+C:\Users\apple\Source\Repos\CSYE-6202\FizzBuzz\FizzBuzz.Tests\bin\Debug\nunit.framework.dll
+C:\Users\apple\Source\Repos\CSYE-6202\FizzBuzz\FizzBuzz.Tests\bin\Debug\nunit.framework.xml
+C:\Users\apple\Source\Repos\CSYE-6202\FizzBuzz\FizzBuzz.Tests\obj\Debug\FizzBuzz.Tests.csprojResolveAssemblyReference.cache
+C:\Users\apple\Source\Repos\CSYE-6202\FizzBuzz\FizzBuzz.Tests\obj\Debug\FizzBuzz.Tests.dll
+C:\Users\apple\Source\Repos\CSYE-6202\FizzBuzz\FizzBuzz.Tests\obj\Debug\FizzBuzz.Tests.pdb
+C:\Users\apple\Source\Repos\CSYE-6202\FizzBuzz\FizzBuzz.Tests\bin\Debug\FizzBuzz.pdb

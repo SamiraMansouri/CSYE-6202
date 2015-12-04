@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1019]C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights.Tests\bin\Debug\BoxingWeights.Tests.dll</TopNode>
+  <SelectedNode>[0-1019]C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights.Tests\bin\Debug\BoxingWeights.Tests.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1019]C:\Users\apple\Source\Repos\CSYE-6202\BoxingWeights\BoxingWeights.Tests\bin\Debug\BoxingWeights.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1020]BoxingWeights" Expanded="true" />
+    <Node UniqueName="[0-1021]BoxingWeights.Tests" Expanded="true" />
+    <Node UniqueName="[0-1000]BoxingWeights.Tests.WhenRunningBoxingWeights" Expanded="true" />
+  </Nodes>
+</VisualState>

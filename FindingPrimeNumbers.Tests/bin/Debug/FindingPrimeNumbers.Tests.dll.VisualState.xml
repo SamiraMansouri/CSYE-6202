@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1006]C:\Users\apple\Source\Repos\CSYE-6202\FindingPrimeNumbers.Tests\bin\Debug\FindingPrimeNumbers.Tests.dll</TopNode>
+  <SelectedNode>[0-1000]FindingPrimeNumbers.Tests.WhenFindingPrimeNumbers</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1006]C:\Users\apple\Source\Repos\CSYE-6202\FindingPrimeNumbers.Tests\bin\Debug\FindingPrimeNumbers.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1007]FindingPrimeNumbers" Expanded="true" />
+    <Node UniqueName="[0-1008]FindingPrimeNumbers.Tests" Expanded="true" />
+    <Node UniqueName="[0-1000]FindingPrimeNumbers.Tests.WhenFindingPrimeNumbers" Expanded="true" />
+  </Nodes>
+</VisualState>
