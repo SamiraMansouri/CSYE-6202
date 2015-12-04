@@ -87,6 +87,11 @@ namespace CarbonFootPrint
                 {
                     MessageBox.Show("Data entered for car is not valid");
                 }
+
+                foreach (var item in baseType)
+                {
+                    item.CalculatFootPrints(4.6);
+                }
             }
         }
 
