@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="\\psf\Home\Desktop\C#\Final Project\Airline Registration\AirLineRegistration Test\bin\Debug\AirLineRegistration Test.dll" total="35" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-12-11" time="19:54:33">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="APPLEAD7E" user="apple" user-domain="APPLEAD7E" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="\\psf\Home\Desktop\C#\Final Project\Airline Registration\AirLineRegistration Test\bin\Debug\AirLineRegistration Test.dll" executed="True" result="Success" success="True" time="0.223" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="AirLineRegistration_Test" executed="True" result="Success" success="True" time="0.214" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="MyFirstTestClass" executed="True" result="Success" success="True" time="0.211" asserts="0">
+            <results>
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.AddCrewToList" executed="True" result="Success" success="True" time="0.051" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.AddSeatToList" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.RemoveSeatFromList" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_ADDSeat" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_ADDSeatType" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_ADDSeatTypeToList" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_CarrierConstructor_with_0Argument" executed="True" result="Success" success="True" time="0.008" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_CarrierConstructor_with_4Argument" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_CarrierConstructor_with_5Argument" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_Check_ThisSea_Is_Book_Before_OrNot" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_CrewConstructor_with_0Argument" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_CrewConstructor_with_Argumentss" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_CustomerConstructor_with_0Argument" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_CustomerConstructor_with_5Argument_Costructor_of_person" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_CustomerConstructor_with_Arguments" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_Find_SeatTypeIndex_In_List" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_FindSeatTypeID" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_FindSeatTypeName" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_FlightConstructor_with_0Argument" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_FlightConstructor_with_6Argument" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_FlightConstructor_with_MoreArguments" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_Is_there_any_seat_with_this_SeatType" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_PersonConstructor_with_0Argument" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_PersonConstructor_with_Arguments" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_RemoveSeatType" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_SeatConstructor_with_0Argument" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_SeatConstructor_with_4Argument" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_SeatConstructor_with_5Argument" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_SeatTypeConstructor_with_0Argument" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_SeatTypeConstructor_with_5Argument" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_SeatTypeConstructor_with_6Argument" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_SetFlightFunction" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_UpdateItemInSeatTypeList" executed="True" result="Success" success="True" time="0.003" asserts="6" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_UserConstructor_with_0Argument" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="AirLineRegistration_Test.MyFirstTestClass.Test_UserConstructor_with_4Argument" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
